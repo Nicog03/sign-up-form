@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    width: 40vw;
+    background-image: url(/imgs/alice-butenko-zstWUZFj77w-unsplash.jpg);
+    background-size: cover;
+    filter: saturate(0);
+    justify-content: center;
+}
+
+.left-side > div {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: fit-content;
+    margin-top: 100px;
+    opacity: 80%;
+}
