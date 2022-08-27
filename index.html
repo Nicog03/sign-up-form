@@ -21,22 +21,35 @@
         how they react.
       </p>
       <form action="post">
-        <legend>Create an account</legend>
-        <label for="first-name">First name</label>
-        <input type="text" name="userFirstName" id="first-name" />
-        <label for="last-name">Last name</label>
-        <input type="text" name="userLastName" id="last-name" />
-        <label for="mail">Email</label>
-        <input type="email" name="userMail" id="mail" />
-        <label for="phone">Phone number</label>
-        <input type="tel" name="userPhone" id="phone" />
-        <label for="password">Password</label>
-        <input type="password" name="userPassword" id="password" />
-        <label for="passwordCheck">Repeat password</label>
-        <input type="password" name="userPasswordCheck" id="passwordCheck" />
+        <fieldset>
+          <legend>General Information</legend>
+          <label for="first-name">First name</label>
+          <input type="text" name="userFirstName" id="first-name" />
+          <label for="last-name">Last name</label>
+          <input type="text" name="userLastName" id="last-name" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label for="mail">Email</label>
+          <input type="email" name="userMail" id="mail" />
+          <label for="phone">Phone number</label>
+          <input type="tel" name="userPhone" id="phone" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Security</legend>
+          <label for="password">Password</label>
+          <input type="password" name="userPassword" id="password" />
+          <label for="passwordCheck">Repeat password</label>
+          <input type="password" name="userPasswordCheck" id="passwordCheck" />
+        </fieldset>
       </form>
-      <button type="button">Sign in</button>
-      <p>Already have an account? <a href="#">Log in</a></p>
+
+      <div>
+        <button type="button">Sign in</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
     </div>
   </body>
 </html>
