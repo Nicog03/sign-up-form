@@ -20,3 +20,33 @@ body {
     margin-top: 100px;
     opacity: 80%;
 }
+
+.right-side {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 20px;
+}
+
+p {
+    max-width: 900px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #dddddd;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    display: flex;
+    gap: 10vw;
+}
+
+label + input {
+    display: block;
+}
