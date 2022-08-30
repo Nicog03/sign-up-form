@@ -13,11 +13,19 @@ body {
 }
 
 .left-side {
-    width: 40vw;
-    background-image: url(/imgs/alice-butenko-zstWUZFj77w-unsplash.jpg);
-    background-size: cover;
-    filter: saturate(0);
+    display: flex;
+    align-items: center;
     justify-content: center;
+    width: 40vw;
+    background-image: url(/svg/pattern-01.svg);
+    background-size: cover;
+}
+
+img {
+    height: 10vw;
+    background-color: white;
+    padding: .5vw;
+    border: black solid .5vw;
 }
 
 .left-side > div {
