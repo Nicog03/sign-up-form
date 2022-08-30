@@ -104,3 +104,22 @@ input:hover {
 label + input {
     display: block;
 }
+
+button {
+    width: 200px;
+    height: 40px;
+    border: black solid 3px;
+    font-size: 1.1em;
+    transition: 0.2s ease-out;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: black 3px 3px;
+}
+
+button:active {
+    background-color: black;
+    color: white;
+    box-shadow: black 0px 0px;
+}
