@@ -47,7 +47,6 @@ p {
 form {
     display: flex;
     flex-direction: column;
-    background-color: #dddddd;
     margin-bottom: 20px;
     gap: 40px;
 }
@@ -59,6 +58,29 @@ fieldset {
     padding: 40px;
     position: relative;
     box-shadow: black 3px 3px;
+}
+
+fieldset div {
+    position: relative;
+}
+
+label {
+    transition: 0.3 ease-out;
+    position: absolute;
+    left: 0;
+    top: -26px;
+    padding: 2px 5px;
+    transition: 0.2s ease-out;
+    color: #444444;
+}
+
+input:hover + label {
+    color: black;
+}
+
+input:focus + label {
+    background-color: black;
+    color: white;
 }
 
 input {
