@@ -58,6 +58,22 @@ fieldset {
     box-shadow: black 3px 3px;
 }
 
+input {
+    border: black solid 2px;
+    height: 29px;
+    width: 200px;
+    transition: 0.2s ease-out;
+}
+
+input:focus {
+    box-shadow: black 2px 2px;
+    outline: none;
+}
+
+input:hover {
+    background-color: #e4e4e4;
+}
+
 label + input {
     display: block;
 }
