@@ -88,6 +88,8 @@ input {
     height: 29px;
     width: 200px;
     transition: 0.2s ease-out;
+    font-size: .95em;
+    padding-left: 5px;
 }
 
 input:focus {
