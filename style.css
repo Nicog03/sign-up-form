@@ -34,14 +34,16 @@ body {
     width: 60vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 100px;
     margin: 20px;
+    align-items: center;
 }
 
-p {
-    max-width: 900px;
+.right-side > p {
+    max-width: 700px;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
 }
 
 form {
@@ -53,7 +55,7 @@ form {
 
 fieldset {
     display: flex;
-    gap: 10vw;
+    gap: 5vw;
     border: black solid 3px;
     padding: 40px;
     position: relative;
