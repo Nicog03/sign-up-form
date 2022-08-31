@@ -54,6 +54,12 @@ img {
     padding: 10px;
 }
 
+.right-side > div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -121,6 +127,12 @@ input:hover {
 
 label + input {
     display: block;
+}
+
+.right-side > div > div:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 button {
