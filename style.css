@@ -78,17 +78,25 @@ label {
     transition: 0.3 ease-out;
     position: absolute;
     left: 0;
-    top: -26px;
+    top: 0;
     padding: 2px 5px;
     transition: 0.2s ease-out;
     color: #444444;
 }
 
+input:not(:placeholder-shown) + label {
+    background-color: none;
+    color: black;
+    top: -26px
+}
+
 input:hover + label {
     color: black;
+    cursor:text;
 }
 
 input:focus + label {
+    top: -26px;
     background-color: black;
     color: white;
 }
