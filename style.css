@@ -180,3 +180,79 @@ button:active {
     color: white;
     box-shadow: black 0px 0px;
 }
+
+@media only screen and (max-width: 1260px) {
+
+    body {
+        width: 100vw;
+        min-height: 100vh;
+        max-height: fit-content;
+    }
+
+    .right-side {
+        justify-content: start;
+    }
+
+    .right-side > p {
+        position: absolute;
+        margin: 0 20px;
+    }
+
+    .right-side > div {
+        margin: auto 0;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+    
+
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-side {
+        width: fit-content;
+    }
+
+    .right-side > p {
+        position: static;
+        margin: 0;
+    }
+
+    img {
+        height: 20vw;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .left-side {
+        width: 98vw;
+        height: 20vh;
+    }
+
+    .right-side > div > div:last-child {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    fieldset {
+        flex-direction: column;
+        gap: 30px;
+        padding: 25px 10px 10px;
+    }
+
+    button {
+        height: fit-content;
+    }
+
+    .right-side {
+        gap: 20px;
+    }
+
+}
