@@ -29,7 +29,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 40vw;
-    background-image: url(/svg/pattern-01.svg);
+    background-image: url(./svg/bg.svg);
     background-size: cover;
 }
 
