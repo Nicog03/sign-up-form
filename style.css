@@ -191,10 +191,11 @@ button:active {
 
     .right-side {
         justify-content: start;
+        gap: 0px;
     }
 
     .right-side > p {
-        position: absolute;
+        position: static;
         margin: 0 20px;
     }
 
