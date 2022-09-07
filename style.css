@@ -181,6 +181,13 @@ button:active {
     box-shadow: black 0px 0px;
 }
 
+.notMatchingMessage {
+    position: absolute;
+    bottom: -20px;
+    color: rgb(158, 0, 74);
+    font-size: 0.8em;
+}
+
 @media only screen and (max-width: 1260px) {
 
     body {
