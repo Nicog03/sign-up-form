@@ -266,4 +266,8 @@ button:active {
         gap: 20px;
     }
 
+    .notMatchingMessage {
+        bottom: -35px;
+    }
+
 }
