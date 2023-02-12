@@ -37,3 +37,11 @@ The animation were something that i often try to implement whenever i am working
 ![Password similarity check example](https://github.com/Nicog03/sign-up-form/blob/main/readme-gifs/pass.gif)
 
 The password check is something that still needs to be worked on... i mean, it works, but there's so many more things that i wanna implement on it, that i cannot say that it is done. It was made using JavaScript, by comparing both password strings. The feature that i am most proud on this password check is the fact that it decides when to output the error message based on the typing of the user, basically: if you're typing it does not display the error, it is only after _exactly_ 0,5s of not typing that it display the error.
+
+# Possible improvements
+
+This project is pretty simple, and one of my specific future improvements is to try and make it as interesting as possible. So, some of the things i still plan to work on are:
+
+- Improve how the images are displayed, make them more appealing to the eye;
+- Implement a better password similarity check UI and algorithm;
+- Implement a google login API.
