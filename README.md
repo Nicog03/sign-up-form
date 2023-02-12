@@ -8,6 +8,16 @@ It was made as the conclusion for the Forms section on [The Odin Project](https:
 
 ## Try it out [here!](https://nicog03.github.io/sign-up-form/)
 
+## Technologies used
+
+- HTML
+- CSS
+  - Grid layout
+  - pseudo-classes selectors
+  - pseudo-selectors selectors
+- JavaScript
+  - DOM Manipulation
+
 # Features
 
 ## Responsiveness
